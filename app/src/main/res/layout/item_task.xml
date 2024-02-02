@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_item"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    android:padding="18dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_title"
+            android:textColor="@color/brand_color"
+            android:textSize="16sp"
+            android:fontFamily="@font/jost"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_sub_title"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:fontFamily="@font/jost"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            app:tint="@color/blue_color"
+            android:paddingVertical="4dp"
+            android:paddingHorizontal="8dp"/>
+
+        <ImageView
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            app:tint="@color/red_color"
+            android:paddingVertical="4dp"
+            android:paddingHorizontal="8dp"/>
+
+        <ImageView
+            android:id="@+id/btn_completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_completion"
+            app:tint="@color/green_color"
+            android:paddingVertical="4dp"
+            android:paddingHorizontal="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

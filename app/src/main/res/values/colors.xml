@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="brand_color">#9395D3</color>
+    <color name="brand_color_2">#D6D7EF</color>
+    <color name="hint_color">#8B8787</color>
+    <color name="green_color">#4CAF50</color>
+    <color name="red_color">#F44336</color>
+    <color name="blue_color">#03A9F4</color>
+    <color name="ripple_effect_color">#E0E0E0</color>
+</resources>
